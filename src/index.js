@@ -25,7 +25,8 @@ export default function rollupMt2amd (options) {
       });
 
       file = await mt2amd.compile(file, {
-        es6: true
+        es6: true,
+        beautify: true
       });
 
       return {code: file.contents.toString()};

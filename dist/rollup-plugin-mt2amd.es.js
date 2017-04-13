@@ -27,7 +27,8 @@ function rollupMt2amd(options) {
 
 
                   mt2amd.compile(file, {
-                    es6: true }));case 7:file = _context.sent;return _context.abrupt('return',
+                    es6: true,
+                    beautify: true }));case 7:file = _context.sent;return _context.abrupt('return',
 
 
                 { code: file.contents.toString() });case 9:case 'end':return _context.stop();}}}, _callee, _this);}))();
