@@ -1,6 +1,6 @@
 import _regeneratorRuntime from 'babel-runtime/regenerator';
 import _asyncToGenerator from 'babel-runtime/helpers/asyncToGenerator';
-import gutil from 'gulp-util';
+import Vinyl from 'vinyl';
 import mt2amd from 'gulp-mt2amd';
 import rollupUtils from 'rollup-pluginutils';
 
@@ -19,7 +19,7 @@ function rollupMt2amd(options) {
                 null);case 4:
 
 
-                file = new gutil.File({
+                file = new Vinyl({
                   base: process.cwd(),
                   cwd: process.cwd(),
                   path: id,

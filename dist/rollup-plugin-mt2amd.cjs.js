@@ -4,7 +4,7 @@ function _interopDefault (ex) { return (ex && (typeof ex === 'object') && 'defau
 
 var _regeneratorRuntime = _interopDefault(require('babel-runtime/regenerator'));
 var _asyncToGenerator = _interopDefault(require('babel-runtime/helpers/asyncToGenerator'));
-var gutil = _interopDefault(require('gulp-util'));
+var Vinyl = _interopDefault(require('vinyl'));
 var mt2amd = _interopDefault(require('gulp-mt2amd'));
 var rollupUtils = _interopDefault(require('rollup-pluginutils'));
 
@@ -23,7 +23,7 @@ function rollupMt2amd(options) {
                 null);case 4:
 
 
-                file = new gutil.File({
+                file = new Vinyl({
                   base: process.cwd(),
                   cwd: process.cwd(),
                   path: id,

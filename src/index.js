@@ -1,4 +1,4 @@
-import gutil from 'gulp-util';
+import Vinyl from 'vinyl';
 import mt2amd from 'gulp-mt2amd';
 import rollupUtils from 'rollup-pluginutils';
 
@@ -17,7 +17,7 @@ export default function rollupMt2amd (options) {
         return null;
       }
 
-      let file = new gutil.File({
+      let file = new Vinyl({
         base: process.cwd(),
         cwd: process.cwd(),
         path: id,
