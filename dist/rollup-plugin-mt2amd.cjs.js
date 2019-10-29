@@ -15,7 +15,7 @@ function rollupMt2amd(options) {
   return {
     name: 'mt2amd',
 
-    transform: function transform(content, id) {var _this = this;return _asyncToGenerator(_regeneratorRuntime.mark(function _callee() {var file;return _regeneratorRuntime.wrap(function _callee$(_context) {while (1) {switch (_context.prev = _context.next) {case 0:if (
+    transform: function transform(content, id) {var _this = this;return _asyncToGenerator( /*#__PURE__*/_regeneratorRuntime.mark(function _callee() {var file;return _regeneratorRuntime.wrap(function _callee$(_context) {while (1) {switch (_context.prev = _context.next) {case 0:if (
                 /\.(tpl\.html|less|sass|css|png|jpg|jpeg|gif|svg|json)$/.test(id)) {_context.next = 2;break;}return _context.abrupt('return',
                 null);case 2:if (
 
@@ -31,11 +31,12 @@ function rollupMt2amd(options) {
 
 
                   mt2amd.compile(file, {
-                    es6: true,
+                    babel: options.babel,
+                    esModule: true,
                     beautify: true }));case 7:file = _context.sent;return _context.abrupt('return',
 
 
-                { code: file.contents.toString() });case 9:case 'end':return _context.stop();}}}, _callee, _this);}))();
+                { code: file.contents.toString(), map: { mappings: '' } });case 9:case 'end':return _context.stop();}}}, _callee, _this);}))();
     } };
 
 }

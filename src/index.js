@@ -25,11 +25,12 @@ export default function rollupMt2amd (options) {
       });
 
       file = await mt2amd.compile(file, {
-        es6: true,
+        babel: options.babel,
+        esModule: true,
         beautify: true
       });
 
-      return {code: file.contents.toString()};
+      return {code: file.contents.toString(), map: {mappings: ''}};
     }
   };
 };
