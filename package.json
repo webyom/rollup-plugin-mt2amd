@@ -1,6 +1,6 @@
 {
   "name": "rollup-plugin-mt2amd",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "mt2amd plugin for rollup",
   "main": "dist/rollup-plugin-mt2amd.cjs.js",
   "module": "dist/rollup-plugin-mt2amd.es.js",
