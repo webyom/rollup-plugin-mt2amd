@@ -27,6 +27,7 @@ export default function rollupMt2amd (options) {
       file = await mt2amd.compile(file, {
         babel: options.babel,
         strictMode: options.strictMode,
+        dataInjection: options.dataInjection,
         esModule: true,
         beautify: true
       });

@@ -29,6 +29,7 @@ function rollupMt2amd(options) {
                   mt2amd.compile(file, {
                     babel: options.babel,
                     strictMode: options.strictMode,
+                    dataInjection: options.dataInjection,
                     esModule: true,
                     beautify: true }));case 7:file = _context.sent;return _context.abrupt('return',
 
