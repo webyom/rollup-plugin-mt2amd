@@ -1408,10 +1408,10 @@ gulp-minifier@^1.1.0:
     uglify-es "^3.3.6"
     vinyl "^2.1.0"
 
-gulp-mt2amd@^1.15.0:
-  version "1.15.0"
-  resolved "https://registry.yarnpkg.com/gulp-mt2amd/-/gulp-mt2amd-1.15.0.tgz#cf0fa762da511e49fc2012e1b7fc06b99c642c07"
-  integrity sha512-sIPVzmK75roapOpLyNQPRWLL7YPawCj1ku/Iu7OdsjmaG7mYi9lnVaMNQVLyk78ClHA9I2mBqieWfEScdfm+0A==
+gulp-mt2amd@^1.19.0:
+  version "1.20.0"
+  resolved "https://registry.yarnpkg.com/gulp-mt2amd/-/gulp-mt2amd-1.20.0.tgz#ba57c1204dd56a62bfba6fd419c6a2f8021af52b"
+  integrity sha512-BlyW5SSn5MlQJmG6TPw6c713byjUhuyWB5i/8Nfv3wgHhkUpDuedFqYRNr5Ph0uaZR2GOifR3n6LzEhT/smTug==
   dependencies:
     chalk "^2.3.0"
     gulp-img-css-sprite "^0.2.0"
@@ -3012,9 +3012,9 @@ xtend@~4.0.1:
   integrity sha512-LKYU1iAXJXUgAXn9URjiu+MWhyUXHsvfp7mcuYm9dSUKK0/CjtrUwFAxD82/mCWbtLsGjFIad0wIsod4zrTAEQ==
 
 y18n@^3.2.1:
-  version "3.2.1"
-  resolved "https://registry.yarnpkg.com/y18n/-/y18n-3.2.1.tgz#6d15fba884c08679c0d77e88e7759e811e07fa41"
-  integrity sha1-bRX7qITAhnnA136I53WegR4H+kE=
+  version "3.2.2"
+  resolved "https://registry.yarnpkg.com/y18n/-/y18n-3.2.2.tgz#85c901bd6470ce71fc4bb723ad209b70f7f28696"
+  integrity sha512-uGZHXkHnhF0XeeAPgnKfPv1bgKAYyVvmNL1xlKsPYZPaIHxGti2hHqvOCQv71XMsLxu1QjergkqogUnms5D3YQ==
 
 yallist@^2.1.2:
   version "2.1.2"
