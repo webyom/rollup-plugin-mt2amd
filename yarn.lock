@@ -1126,9 +1126,9 @@ decamelize@^1.0.0, decamelize@^1.1.1, decamelize@^1.1.2:
   integrity sha1-9lNNFRSCabIDUue+4m9QH5oZEpA=
 
 decode-uri-component@^0.2.0:
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/decode-uri-component/-/decode-uri-component-0.2.0.tgz#eb3913333458775cb84cd1a1fae062106bb87545"
-  integrity sha1-6zkTMzRYd1y4TNGh+uBiEGu4dUU=
+  version "0.2.2"
+  resolved "https://registry.yarnpkg.com/decode-uri-component/-/decode-uri-component-0.2.2.tgz#e69dbe25d37941171dd540e024c444cd5188e1e9"
+  integrity sha512-FqUYQ+8o158GyGTrMFJms9qh3CqTKvAqgqsTnkLI8sKu0028orqBhxNMFkFen0zGyg6epACD32pjVk58ngIErQ==
 
 delayed-stream@~1.0.0:
   version "1.0.0"
@@ -1408,10 +1408,10 @@ gulp-minifier@^1.1.0:
     uglify-es "^3.3.6"
     vinyl "^2.1.0"
 
-gulp-mt2amd@^1.15.0:
-  version "1.15.0"
-  resolved "https://registry.yarnpkg.com/gulp-mt2amd/-/gulp-mt2amd-1.15.0.tgz#cf0fa762da511e49fc2012e1b7fc06b99c642c07"
-  integrity sha512-sIPVzmK75roapOpLyNQPRWLL7YPawCj1ku/Iu7OdsjmaG7mYi9lnVaMNQVLyk78ClHA9I2mBqieWfEScdfm+0A==
+gulp-mt2amd@^1.19.0:
+  version "1.20.0"
+  resolved "https://registry.yarnpkg.com/gulp-mt2amd/-/gulp-mt2amd-1.20.0.tgz#ba57c1204dd56a62bfba6fd419c6a2f8021af52b"
+  integrity sha512-BlyW5SSn5MlQJmG6TPw6c713byjUhuyWB5i/8Nfv3wgHhkUpDuedFqYRNr5Ph0uaZR2GOifR3n6LzEhT/smTug==
   dependencies:
     chalk "^2.3.0"
     gulp-img-css-sprite "^0.2.0"
